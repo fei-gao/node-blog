@@ -30,7 +30,7 @@ const posts = [
   ]
 
   //set the view engine to ejs
-  app.set('view engine', ejs);
+  app.set('view engine', 'ejs');
 
   //blog home page
   app.get('/', (req, res) => {
